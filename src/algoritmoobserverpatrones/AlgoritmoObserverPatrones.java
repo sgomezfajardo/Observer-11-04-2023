@@ -19,13 +19,15 @@ public class AlgoritmoObserverPatrones {
             Subject sub1 = new Subject();
             sub1.registrado(Devolucion);
             System.out.println("El libro ha sido devuelto");
-            System.out.println("estado del libro 1");
+            System.out.println("estado del libro = 1");
             sub1.setLibro(1);
-            System.out.println("Setting Flag = 25 ");
-            sub1.setLibro(25);
+            System.out.println("El libro es...");
+            System.out.println("Estado del libro = 2");
+            sub1.setLibro(2);
             sub1.Desregistrado(Devolucion);
-            System.out.println("Setting Flag = 50 ");
-            sub1.setLibro(50);
+            System.out.println("El libro ha sido desenlistado");
+            System.out.println("Estado del libro = 3");
+            sub1.setLibro(3);
     }
     
 }
